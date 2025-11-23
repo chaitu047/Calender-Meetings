@@ -1,0 +1,24 @@
+.calender {
+  position: relative;
+}
+
+.slot {
+  border-bottom: 1px solid black;
+  height: 5rem;
+}
+
+.line {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  border-left: 1px solid black;
+  margin-left: 4rem;
+}
+
+.event {
+  position: absolute;
+  background-color: aqua;
+  z-index: 9999;
+  width: 80%;
+  margin-left: 5rem;
+}
